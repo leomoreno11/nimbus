@@ -84,6 +84,11 @@
             bindings = <&kp K_PASTE>;
             key-positions = <14 15>;
         };
+
+        underline_combo {
+            bindings = <&kp UNDER>;
+            key-positions = <25 26>;
+        };
     };
 
     keymap {
