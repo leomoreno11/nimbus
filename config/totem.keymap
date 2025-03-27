@@ -90,14 +90,14 @@
         comment_macro: comment_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp LC(K) &kp LC(C)>;
+            bindings = <&kt LEFT_CONTROL &kp K &kp C &kt LEFT_CONTROL>;
             label = "COMMENT_MACRO";
         };
 
         uncomment_macro: uncomment_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp LC(K) &kp LC(U)>;
+            bindings = <&kt LEFT_CONTROL &kp K &kp U &kt LEFT_CONTROL>;
             label = "UNCOMMENT_MACRO";
         };
     };
