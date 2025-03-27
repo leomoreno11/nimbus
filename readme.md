@@ -1,22 +1,43 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/docs/images/TOTEM_logo_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/docs/images/TOTEM_logo_bright.svg">
-  <img alt="TOTEM logo font" src="/docs/images/TOTEM_logo_bright.svg">
-</picture>
+<div align="center">
+    <p><img width="320" alt="Totem Logo" src="https://raw.githubusercontent.com/GEIGEIGEIST/TOTEM/main/docs/images/TOTEM_logo_dark.svg"/></p>
+</div>
 
-# ZMK CONFIG FOR THE TOTEM SPLIT KEYBOARD
+<div align="center">
+    <pre>
+    ===================================================================
+    ███▄▄▄▄    ▄█    ▄▄▄▄███▄▄▄▄   ▀█████████▄  ███    █▄     ▄████████
+    ███▀▀▀██▄ ███  ▄██▀▀▀███▀▀▀██▄   ███    ███ ███    ███   ███    ███
+    ███   ███ ███▌ ███   ███   ███   ███    ███ ███    ███   ███    █▀ 
+    ███   ███ ███▌ ███   ███   ███  ▄███▄▄▄██▀  ███    ███   ███       
+    ███   ███ ███▌ ███   ███   ███ ▀▀███▀▀▀██▄  ███    ███ ▀███████████
+    ███   ███ ███  ███   ███   ███   ███    ██▄ ███    ███          ███
+    ███   ███ ███  ███   ███   ███   ███    ███ ███    ███    ▄█    ███
+     ▀█   █▀  █▀    ▀█   ███   █▀  ▄█████████▀  ████████▀   ▄████████▀ 
+    =================== A minimal & stealth Keyboard ==================
+    </pre>
+</div>
 
-[Here](https://github.com/GEIGEIGEIST/totem) you can find the hardware files and build guide.\
-[Here](https://github.com/GEIGEIGEIST/qmk-config-totem) you can find the QMK config for the TOTEM.
+<div align="center">
+    <p><img width="800" alt="All Black totem build" src="https://github.com/GEIGEIGEIST/TOTEM/blob/main/docs/images/TOTEM_layout.svg"/></p>
+</div>
 
-TOTEM is a 38 key column-staggered split keyboard running [ZMK](https://zmk.dev/) or [QMK](https://docs.qmk.fm/). It's meant to be used with a SEEED XIAO BLE or RP2040.
+<img width="350" src="https://github.com/leomoreno11/leomoreno11/blob/main/materials/cybersigilism.jpeg" align="right">
 
+<samp>
+nimbus is my personal keyboard project. this keyboard will be modified and upgraded over the years
+<br>
+<br>
+info:
+<ul>
+  <li> all made in 3d printing
+  <li>switches: lowprokb ambient nocturnal 20g linear switches</li>
+  <li>keycaps: pseudoky // chocfox</li>
+  <li>wireless all the way</li>
+  <li>all black!</li>
+  <li>it also will have a carrying case</li>
+</ul>
 
-![TOTEM layout](/docs/images/TOTEM_layout.svg)
-
-
-
-## HOW TO USE
+HOW TO USE
 
 - fork this repo
 - `git clone` your repo, to create a local copy on your PC (you can use the [command line](https://www.atlassian.com/git/tutorials) or [github desktop](https://desktop.github.com/))
