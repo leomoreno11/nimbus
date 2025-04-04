@@ -70,13 +70,8 @@
             key-positions = <13 16>;
         };
 
-        copy_combo {
-            bindings = <&kp K_COPY>;
-            key-positions = <4 5>;
-        };
-
-        paste_combo {
-            bindings = <&kp K_PASTE>;
+        hyphen_combo {
+            bindings = <&kp MINUS>;
             key-positions = <14 15>;
         };
 
