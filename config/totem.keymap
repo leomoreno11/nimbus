@@ -154,7 +154,7 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &none  &kp F1  &kp F2  &kp F3  &kp F10    &kp K_MUTE         &kp PRINTSCREEN       &kp COLON         &none             &none
+       &none  &kp F1  &kp F2  &kp F3  &kp F10    &kp K_MUTE         &kp PRINTSCREEN       &kp COLON         &kp PIPE          &none
        &none  &kp F4  &kp F5  &kp F6  &kp F11    &kp C_VOLUME_UP    &kp C_BRIGHTNESS_INC  &kp QUESTION      &comment_macro    &none
 &none  &none  &kp F7  &kp F8  &kp F9  &kp F12    &kp C_VOLUME_DOWN  &kp C_BRI_DEC         &kp EXCLAMATION   &uncomment_macro  &none  &none
                       &none   &trans  &none      &kp LEFT_ALT       &kp LEFT_SHIFT        &kp LEFT_CONTROL
