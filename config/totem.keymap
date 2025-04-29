@@ -72,12 +72,17 @@
 
         hyphen_combo {
             bindings = <&kp MINUS>;
-            key-positions = <14 15>;
+            key-positions = <15 16>;
         };
 
         underline_combo {
             bindings = <&kp UNDER>;
-            key-positions = <25 26>;
+            key-positions = <26 27>;
+        };
+
+        tmux_combo {
+            bindings = <&tmux_macro>;
+            key-positions = <8 9>;
         };
     };
 
@@ -94,6 +99,13 @@
             #binding-cells = <0>;
             bindings = <&kt LEFT_CONTROL &kp K &kp U &kt LEFT_CONTROL>;
             label = "UNCOMMENT_MACRO";
+        };
+
+        tmux_macro: tmux_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&sk LEFT_CONTROL &kp B>;
+            label = "TMUX_MACRO";
         };
     };
 
