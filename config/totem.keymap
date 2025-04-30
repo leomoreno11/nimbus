@@ -106,6 +106,13 @@
             bindings = <&sk LEFT_CONTROL &kp B>;
             label = "TMUX_MACRO";
         };
+
+        dquote_macro: dquote_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOUBLE_QUOTES &kp SPACE>;
+            label = "DQUOTE_MACRO";
+        };
     };
 
     keymap {
@@ -189,10 +196,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp Q   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2       &kp N          &none           &none           &none         &none            &none
-        &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3       &kp P          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none
-&trans  &kp Z   &kp X         &kp C         &kp DOUBLE_QUOTES  &kp PERCENT    &none           &none           &none         &none            &none  &none
-                              &trans        &trans             &none          &tmux_macro     &trans          &none
+        &kp Q   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &kp N          &none           &none           &none         &none            &none
+        &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp P          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none
+&trans  &kp Z   &kp X         &kp C         &dquote_macro  &kp PERCENT    &none           &none           &none         &none            &none  &none
+                              &trans        &trans         &none          &tmux_macro     &trans          &none
             >;
         };
     };
