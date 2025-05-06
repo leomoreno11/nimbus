@@ -78,11 +78,6 @@
             bindings = <&kp UNDER>;
             key-positions = <26 27>;
         };
-
-        tmux_combo {
-            bindings = <&tmux_macro>;
-            key-positions = <8 9>;
-        };
     };
 
     macros {
