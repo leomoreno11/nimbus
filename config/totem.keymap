@@ -141,10 +141,10 @@
 
         navigation_layer {
             bindings = <
-              &kp PERIOD        &kp N1  &kp N2  &kp N3        &kp COMMA         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp INSERT
-              &kp LEFT_CONTROL  &kp N4  &kp N5  &kp N6        &kp EQUAL         &kp LEFT              &kp DOWN               &kp UP            &kp RIGHT          &none
-&kp LEFT_GUI  &kp SLASH         &kp N7  &kp N8  &kp N9        &kp MINUS         &kp HOME              &kp PAGE_DOWN          &kp PAGE_UP       &kp END            &kp BSLH    &dquote_macro
-                                        &kp N0  &kp LEFT_ALT  &kp LEFT_SHIFT    &none                 &trans                 &none
+       &kp PERIOD              &kp N1             &kp N2               &kp N3                   &kp COMMA         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp INSERT
+       &mt LEFT_GUI LESS_THAN  &mt LALT NUMBER_4  &mt LEFT_CONTROL N5  &mt LEFT_SHIFT NUMBER_6  &kp EQUAL         &kp LEFT              &kp DOWN               &kp UP            &kp RIGHT          &none
+&none  &kp GREATER_THAN        &kp N7             &kp N8               &kp N9                   &kp MINUS         &kp HOME              &kp PAGE_DOWN          &kp PAGE_UP       &kp END            &none       &dquote_macro
+                                                  &kp N0               &kp LEFT_ALT             &kp LEFT_SHIFT    &none                 &trans                 &none
             >;
 
             label = "NAV";
@@ -167,14 +167,14 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &none  &kp F1  &kp F2  &kp F3  &kp F10    &kp K_MUTE         &none                 &kp COLON         &kp PIPE          &none
+       &none  &kp F1  &kp F2  &kp F3  &kp F10    &kp K_MUTE         &kp AT_SIGN           &kp COLON         &kp PIPE          &none
        &none  &kp F4  &kp F5  &kp F6  &kp F11    &kp C_VOLUME_UP    &kp C_BRIGHTNESS_INC  &kp QUESTION      &comment_macro    &none
-&none  &none  &kp F7  &kp F8  &kp F9  &kp F12    &kp C_VOLUME_DOWN  &kp C_BRI_DEC         &kp EXCLAMATION   &uncomment_macro  &none  &kp AT
+&none  &none  &kp F7  &kp F8  &kp F9  &kp F12    &kp C_VOLUME_DOWN  &kp C_BRI_DEC         &kp EXCLAMATION   &uncomment_macro  &kp BACKSLASH  &none
                       &none   &trans  &none      &kp LEFT_ALT       &kp LEFT_SHIFT        &kp LEFT_CONTROL
             >;
         };
 
-        utilities_layer {
+        tmux_layer {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
             label = "UTL";
