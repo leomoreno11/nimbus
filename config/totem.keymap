@@ -141,10 +141,10 @@
 
         navigation_layer {
             bindings = <
-       &kp PERIOD              &kp N1             &kp N2               &kp N3                   &kp COMMA         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp INSERT
-       &mt LEFT_GUI LESS_THAN  &mt LALT NUMBER_4  &mt LEFT_CONTROL N5  &mt LEFT_SHIFT NUMBER_6  &kp EQUAL         &kp LEFT              &kp DOWN               &kp UP            &kp RIGHT          &none
-&none  &kp GREATER_THAN        &kp N7             &kp N8               &kp N9                   &kp MINUS         &kp HOME              &kp PAGE_DOWN          &kp PAGE_UP       &kp END            &none       &dquote_macro
-                                                  &kp N0               &kp LEFT_ALT             &kp LEFT_SHIFT    &none                 &trans                 &none
+           &kp PERIOD              &kp N1             &kp N2               &kp N3                   &kp COMMA         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp INSERT
+           &mt LEFT_GUI LESS_THAN  &mt LALT NUMBER_4  &mt LEFT_CONTROL N5  &mt LEFT_SHIFT NUMBER_6  &kp EQUAL         &kp LEFT              &kp DOWN               &kp UP            &kp RIGHT          &none
+&kp SLASH  &kp GREATER_THAN        &kp N7             &kp N8               &kp N9                   &kp MINUS         &kp HOME              &kp PAGE_DOWN          &kp PAGE_UP       &kp END            &none       &dquote_macro
+                                                      &kp N0               &kp LEFT_ALT             &kp LEFT_SHIFT    &none                 &trans                 &none
             >;
 
             label = "NAV";
