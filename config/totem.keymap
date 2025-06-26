@@ -78,6 +78,16 @@
             bindings = <&kp UNDER>;
             key-positions = <26 27>;
         };
+
+        end_macbook_combo {
+            bindings = <&end_macbook_macro>;
+            key-positions = <29 28 27 30>;
+        };
+
+        home_macbook_combo {
+            bindings = <&home_macbook_macro>;
+            key-positions = <22 23 24 21>;
+        };
     };
 
     macros {
@@ -107,6 +117,20 @@
             #binding-cells = <0>;
             bindings = <&kp DOUBLE_QUOTES &kp SPACE>;
             label = "DQUOTE_MACRO";
+        };
+
+        home_macbook_macro: home_macbook_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&sk LEFT_GUI &kp LEFT>;
+            label = "HOME_MACBOOK_MACRO";
+        };
+
+        end_macbook_macro: end_macbook_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&sk LEFT_GUI &kp RIGHT>;
+            label = "END_MACBOOK_MACRO";
         };
     };
 
