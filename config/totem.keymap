@@ -44,11 +44,6 @@
             bindings = <&kp ESC>;
         };
 
-        combo_enter {
-            bindings = <&kp ENTER>;
-            key-positions = <16 17 18>;
-        };
-
         home_combo {
             bindings = <&kp HOME>;
             key-positions = <22 23 24>;
