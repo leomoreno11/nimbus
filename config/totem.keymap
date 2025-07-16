@@ -83,6 +83,11 @@
             bindings = <&home_macbook_macro>;
             key-positions = <22 23 24 21>;
         };
+
+        printscreen_macboo_combo {
+            bindings = <&printscreen_macbook_macro>;
+            key-positions = <13 12 11 10>;
+        };
     };
 
     macros {
@@ -126,6 +131,13 @@
             #binding-cells = <0>;
             bindings = <&sk LEFT_GUI &kp RIGHT>;
             label = "END_MACBOOK_MACRO";
+        };
+
+        printscreen_macbook_macro: printscreen_macbook_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LEFT_COMMAND &sk LEFT_SHIFT &kp NUMBER_4 &kt LEFT_COMMAND>;
+            label = "PRINTSCREEN_MACBOOK_MACRO";
         };
     };
 
