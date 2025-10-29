@@ -136,7 +136,7 @@
         printscreen_macbook_macro: printscreen_macbook_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt LEFT_COMMAND &sk LEFT_SHIFT &kp NUMBER_4 &kt LEFT_COMMAND>;
+            bindings = <&kt LEFT_SHIFT &kt LEFT_COMMAND &kt LEFT_CONTROL &kp NUMBER_4 &kt LEFT_SHIFT &kt LEFT_COMMAND &kt LEFT_CONTROL>;
             label = "PRINTSCREEN_MACBOOK_MACRO";
         };
     };
