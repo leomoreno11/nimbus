@@ -136,7 +136,7 @@
         printscreen_macbook_macro: printscreen_macbook_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt LEFT_SHIFT &kt LEFT_COMMAND &kt LEFT_CONTROL &kp NUMBER_4 &kt LEFT_SHIFT &kt LEFT_COMMAND &kt LEFT_CONTROL>;
+            bindings = <&kt LEFT_SHIFT &kt LEFT_COMMAND &kp NUMBER_4 &kt LEFT_SHIFT &kt LEFT_COMMAND>;
             label = "PRINTSCREEN_MACBOOK_MACRO";
         };
     };
@@ -222,7 +222,7 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp Q   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &kp N          &none           &none           &none         &none            &none
+        &kp Q   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &kp N          &none           &bt BT_CLR      &none         &none            &none
         &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp P          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none
 &trans  &kp Z   &kp X         &kp C         &dquote_macro  &kp PERCENT    &none           &none           &none         &none            &none  &bt BT_CLR
                               &trans        &trans         &none          &tmux_macro     &trans          &none
