@@ -88,6 +88,11 @@
             bindings = <&printscreen_macbook_macro>;
             key-positions = <13 12 11 10>;
         };
+
+        omarchy_cedilla {
+            bindings = <&omarchy_cedilla_macro>;
+            key-positions = <24 23>;
+        };
     };
 
     macros {
@@ -138,6 +143,13 @@
             #binding-cells = <0>;
             bindings = <&kt LEFT_SHIFT &kt LEFT_COMMAND &kp NUMBER_4 &kt LEFT_SHIFT &kt LEFT_COMMAND>;
             label = "PRINTSCREEN_MACBOOK_MACRO";
+        };
+
+        omarchy_cedilla_macro: omarchy_cedilla_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt RIGHT_ALT &kp COMMA>;
+            label = "OMARCHY_CEDILLA_MACRO";
         };
     };
 
