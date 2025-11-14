@@ -148,7 +148,7 @@
         omarchy_cedilla_macro: omarchy_cedilla_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt RIGHT_ALT &kp COMMA>;
+            bindings = <&sk RIGHT_ALT &kp COMMA>;
             label = "OMARCHY_CEDILLA_MACRO";
         };
     };
@@ -238,6 +238,15 @@
         &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp P          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none
 &trans  &kp Z   &kp X         &kp C         &dquote_macro  &kp PERCENT    &none           &none           &none         &none            &none  &bt BT_CLR
                               &trans        &trans         &none          &tmux_macro     &trans          &none
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
